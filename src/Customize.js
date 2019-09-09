@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-
 import Options from './Options';
+import './Customize.css';
 
 
 

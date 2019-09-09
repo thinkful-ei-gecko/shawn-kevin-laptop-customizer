@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import Cartitem from './Cartitem';
 import Total from './Total';
-
-
-
+import './Cart.css';
 
 export default class Cart extends Component {   
     render() {     

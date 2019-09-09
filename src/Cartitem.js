@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './Cartitem.css';
 
 const USCurrencyFormat = new Intl.NumberFormat('en-US', {
     style: 'currency',
