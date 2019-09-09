@@ -40,8 +40,11 @@ class App extends Component {
       <div className="App">
         <Bar/>
         <main>
-        <Customize selected={this.state.selected} features={this.props.features}/>
-        <Cart/>
+        <Customize 
+          selected={this.state.selected}
+          features={this.props.features}
+          handleUpdate={this.updateFeature}/>
+        <Cart selected={this.state.selected}/>
         </main>
       </div>
     );
